@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Root of folders containing the maps
 root_dir = Path(__file__).resolve().parent
-folder = root_dir / "maps"
+folder = root_dir / "midi-main"
 
 # Create output file
 concatFile = 'ALL-MIDI-MAPS.csv'
